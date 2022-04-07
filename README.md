@@ -5,7 +5,7 @@ Simple layout for using tailwindcss with yew in Rust with wasm.
 Install tailwindcss and relevant tools
 
 ```Bash
-npm i -g tailwindcss concurrently
+npm run setup
 ```
 
 ### Clone repository
