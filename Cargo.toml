@@ -6,4 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-yew = "0.19"
+yew = "0.19.3"
+reqwest-wasm = "0.11.0"
+wasm-logger = "0.2.0"
+log = "0.4.16"
+wasm-bindgen-futures = "0.4.30"
+serde = { version = "1.0.48", features = ["derive"] }
+serde_json = "1.0.79"
