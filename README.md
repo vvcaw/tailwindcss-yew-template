@@ -1,5 +1,5 @@
 # tailwindcss-yew-template
-Simple layout for using tailwindcss with Yew in Rust with web assembly.
+Simple layout for using Tailwindcss with Yew.
 
 ## Installation
 Install tailwindcss and relevant tools. Make sure **node** and **rust** is installed on your system!
