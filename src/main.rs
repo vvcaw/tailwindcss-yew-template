@@ -21,7 +21,7 @@ impl Component for App {
 
     fn create(ctx: &Context<Self>) -> Self {
         Self {
-            user: data::Result::default()
+            user: data::Result::default(),
         }
     }
 
@@ -35,7 +35,7 @@ impl Component for App {
                 false
             }
             Msg::UpdatePerson(person) => {
-                log::info!("Update Person: {:?}", {&person});
+                log::info!("Update Person: {:?}", { &person });
                 self.user = person;
 
                 true
